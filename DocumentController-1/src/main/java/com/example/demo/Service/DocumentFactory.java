@@ -14,6 +14,15 @@ public class DocumentFactory {
 			ExcelServiceImpl es=new ExcelServiceImpl();
 			return es;
 		}
+		
+		if(type.equals("word")) {
+			WordSreviceIMpl ws=new WordSreviceIMpl();
+			return ws;
+		}
+		
+		
+		
+		
 		return null;
 	}
 
