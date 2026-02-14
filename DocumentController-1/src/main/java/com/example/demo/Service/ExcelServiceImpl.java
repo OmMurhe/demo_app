@@ -11,7 +11,7 @@ public class ExcelServiceImpl extends DocumentServiceAbstruct {
 	
 	public String PrintData() {
 		
-		System.out.println("Print Excel hiiii");
+		System.out.println("Print Excel");
 		return "Printing Excel";
 	}
 
