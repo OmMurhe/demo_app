@@ -21,7 +21,7 @@ public class DocumentController {
 		
 		DocumentServiceInterface ds=DocumentFactory.createDocumentObject(type);
 		
-		
+		System.out.println("Hii");
 	return	ds.printDocument();
 	
 
